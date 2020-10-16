@@ -1,0 +1,18 @@
+13-10-2020 07:42:59 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:49:13 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:49:57 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:50:18 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:50:30 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:51:30 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/anasayfa.php?id=select%20* | Referer: no referer
+
+13-10-2020 07:53:01 | URL protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/worker/Delete.php?id=2%20select%20from%20* | Referer: no referer
+
+14-10-2020 07:18:29 | POST protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/loginizer.php | Referer: http://localhost/back/
+
+14-10-2020 07:19:10 | POST protect | IP: ::1 | DNS: DESKTOP-9LVDL9T | Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36 | URL: /back/loginizer.php | Referer: http://localhost/back/
+

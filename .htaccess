@@ -1,0 +1,10 @@
+#Dosya uzantılarını gizler.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
+#Varsayılan İndexi Değiştirir.
+DirectoryIndex home.php
+RewriteEngine on
+#Hata Dosyaları
+ErrorDocument 404 /vendor/Errors/404.html
+ErrorDocument 500 /vendor/Errors/500.html

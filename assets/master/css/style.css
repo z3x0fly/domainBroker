@@ -1,0 +1,764 @@
+
+/* ---------------------------
+------- Elite CSS File -------
+-----------------------------*/
+
+
+/*--------------
+All Contents
+--------------*/
+
+/*-----------------
+1. Reset.css
+2. Helper Classes
+3. Split Section Styling
+4. Contact Page Styling
+5. All Media Queries
+------------------*/
+
+
+/*----- 1. Reset.css -----*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* --- Common Styles ---*/
+
+h1 {
+  font-size: 16px;
+	font-family: Poppins;
+}
+
+
+p {
+	font-family: Poppins;
+}
+
+/*----- Helper Classes -----*/
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+}
+
+
+::-moz-selection {
+    color: #FFFFFF;
+    background: #2ECC4F;
+}
+
+::selection {
+    color: #FFFFFF;
+    background: #2ECC4F;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.custompadding {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.no-margin {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.right-padding {
+	padding-left: 0;
+	padding-right: 15px;
+}
+
+.error-message {
+	color: #FF3333;
+	font-family: Poppins;
+	margin-top: 5px;
+}
+
+.success-message {
+	color:#009900;
+	font-family: Poppins;
+	margin-top: 5px;
+}
+
+#loading {
+   width: 100%;
+   height: 100%;
+   top: 0px;
+   left: 0px;
+   position: fixed;
+   opacity: 1;
+   background-color: rgba(255, 255, 255, 0.99);
+   z-index: 9999;
+   text-align: center;
+}
+
+#loading-image {
+	display: inline;
+  top: 40%;
+  position: relative;
+  z-index: 9999;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* ------------------------------------------------------
+---------------- Side Menu Styling Starts ---------------
+--------------------------------------------------------*/
+
+
+
+.logo {
+	white-space: nowrap;
+	line-height: 1;
+	position: absolute;
+	left: 10px;
+	top: 18px;
+	font-family: Poppins;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-decoration: none;
+	z-index: 99;
+}
+
+.logo:hover, .logo:focus {
+	text-decoration: none;
+	color: #111111;
+}
+
+
+
+/* -------------------------------------------------
+--------------- Home Page Styling Starts -----------
+---------------------------------------------------*/
+
+.main {
+  width: 100%;
+	height: 100%;
+	padding-right: 0;
+	transition: 0.5s;
+}
+
+.split {
+	width: 100%;
+	height: 100%;
+	padding-right: 0;
+	transition: 0.5s;
+}
+
+.split-2 .right-section {
+	padding: 50px 20px 0 20px;
+}
+
+.split-2 .right-section .offer-title {
+	padding-bottom: 50px;
+}
+
+.split-2 .right-section .offer-title h1 {
+	font-size: 28px;
+	color: #2ECC4F;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+.split-2 .right-section .offer-title p {
+	font-size: 14px;
+	color: #A1A1A1;
+	font-weight: 400;
+	margin-top: 20px;
+	line-height: 1.4;
+}
+
+.inner {
+	padding: 150px 0 0 0;
+	overflow: hidden;
+}
+
+.inner h4 {
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	color: #A1A1A1;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	line-height: 1.2;
+	margin: 0 0 20px 0;
+}
+
+.inner h1 {
+	font-family: Poppins;
+	font-size: 34px;
+	font-weight: 600;
+	color: #111111;
+	letter-spacing: -2px;
+	line-height: 1.2;
+	margin: 0 0 15px 0;
+}
+
+.inner h1 span {
+	color: #2ECC4F;
+}
+
+.inner p {
+	max-width: 400px;
+	font-family: Poppins;
+	font-size: 13px;
+	font-weight: 400;
+	color: #444444;
+	letter-spacing: 1px;
+	line-height: 1.6;
+	margin: 0 0 20px 0;
+	margin: 0 auto;
+}
+
+.inner .details {
+	padding: 30px 0 30px 0;
+}
+
+.inner a {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.inner .cta {
+	padding: 30px 0 0 0;
+}
+
+.inner .cta h1 {
+	font-size: 34px;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+
+
+.inner .payment li {
+	font-family: Poppins;
+	font-size: 12px;
+	padding: 5px 0 0 0;
+}
+
+.inner .payment i {
+	font-size: 14px;
+	margin-right: 15px;
+}
+
+.btn-contact {
+	font-family: Muli;
+	font-size: 13px;
+	font-weight: 600;
+	color: #2ECC4F;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	background: transparent;
+	border: 2px solid;
+	border-color: #2ECC4F;
+	padding: 6px 16px;
+	border-radius: 25px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-transform: 0.5s;
+	-moz-transform: 0.5s;
+	transition: 0.5s;
+}
+
+.btn-contact:hover, .btn-contact:focus {
+	color: #FFFFFF;
+	background: #2ECC4F;
+	border-color: #2ECC4F;
+	text-decoration: none;
+}
+
+.split .inner {
+	padding: 200px 0 0 0;
+}
+
+
+.split .inner .cta {
+	padding: 0;
+}
+
+.split .inner .cta h1 {
+	font-size: 21px;
+	font-weight: 400;
+	letter-spacing: 0;
+}
+
+.split-3 .inner {
+	padding: 150px 0 0 0;
+}
+
+
+
+/*------------------------------------------------------
+----------- Counter Right Section Styling --------------
+------------------------------------------------------*/
+
+.auction-intro {
+	padding: 0 0 50px 0;
+}
+
+.auction-intro h1 {
+	font-size: 28px;
+	font-weight: 600;
+	color: #333333;
+	letter-spacing: -1px;
+}
+
+ul#countdown {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+}
+
+ul#countdown li {
+	display: inline-block;
+}
+
+ul#countdown li span {
+	font-family: Arial;
+	font-size: 42px;
+	font-weight: 600;
+	line-height: 1;
+	color: #2ECC4F;
+	padding: 6px;
+}
+
+ul#countdown li.seperator {
+	font-size: 34px;
+	line-height: 1;
+	vertical-align: top;
+}
+
+ul#countdown li p {
+	font-family: Poppins;
+	color: #2ECC4F;
+	font-size: 16px;
+	padding-top: 15px;
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	ul#countdown li span {
+		font-size: 34px;
+	}
+}
+
+
+
+/* ------------ Contact Form Styling --------*/
+
+#contact-form {
+	padding-top: 30px;
+	text-align: left;
+}
+
+
+label {
+	display: block;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2ECC4F;
+	text-align: left;
+}
+
+.form-group {
+	font-family: Poppins !important;
+}
+
+.form-control {
+  border: 0px;
+  border-radius: 0px;
+  margin-top: 10px;
+  background: transparent;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #999999;
+  -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+  box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.form-control:focus {
+  border-color: #2ECC4F;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  font-family: Muli;
+  font-size: 13px;
+  color: #999999;
+}
+.form-control:-moz-placeholder {
+  font-family: Muli;
+  font-size: 13px;
+  color: #999999;
+}
+.form-control::-moz-placeholder {
+  font-family: Muli;
+  font-size: 13px;
+  color: #999999;
+}
+.form-control:-ms-input-placeholder {
+  font-family: Quicksand;
+  font-size: 13px;
+  color: #999999;
+}
+
+.text-muted {
+  font-family: Muli;
+  font-size: 13px;
+  color: #222;
+}
+
+.text-muted strong {
+  color: #FF3333;
+}
+
+.btn-send {
+  font-family: Poppins;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+  border-radius: 0px;
+  color: #FFFFFF;
+  background: #2ECC4F;
+	border-color: #2ECC4F;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.btn-send:hover, .btn-send:focus {
+  color: #FFFFFF;
+  background: #000000;
+	border-color: #111111;
+  outline: none !important;
+}
+
+
+/* -------- Contact Section Styling Ends ---- */
+
+
+
+
+.extra {
+	padding: 50px 0 0 0;
+}
+
+.extra .extra-box {
+	padding: 30px;
+	margin-bottom: 20px;
+	background: #F9F9F9;
+}
+
+.extra .extra-box h2 {
+	font-size: 18px;
+	font-weight: 600;
+	color: #8c8c8c;
+	margin: 0 0 10px 0;
+}
+
+.extra .extra-box p {
+	font-size: 12px;
+	color: #A1A1A1;
+	letter-spacing: 1px;
+	line-height: 1.4;
+	margin: 20px 0 0 0;
+}
+
+
+
+.btn-buy {
+	font-family: Muli;
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFFFFF;
+	letter-spacing: 1px;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #2ECC4F;
+	border: 1px solid;
+	border-color: #2ECC4F;
+	padding: 5px 12px;
+	border-radius: 25px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	-webkit-transform: 0.5s;
+	-moz-transform: 0.5s;
+	transition: 0.5s;
+}
+
+.btn-buy:hover, .btn-buy:focus {
+	color: #2ECC4F;
+	background: transparent;
+	border-color: #2ECC4F;
+	text-decoration: none;
+}
+
+
+/*--------------------------------------------------------
+----------------------------------------------------------
+-----------  Split Index Styling Starts ------------------
+----------------------------------------------------------
+---------------------------------------------------------*/
+
+
+
+/* --------------------------------------------------
+------ Homepage Split Layout Styling Starts ---------
+---------------------------------------------------*/
+
+
+.left-section {
+		background-color: #F2F2F2;
+		position: absolute;
+    left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+    width: 50%;
+		height: 100%;
+		overflow: hidden;
+    z-index: 1;
+}
+
+
+ .right-section {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+		padding: 0 10px 0 10px;
+		width: 50%;
+		height: 100%;
+    background: #FFFFFF;
+    z-index: 99;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+
+.split .inner {
+	padding: 250px 50px 100px 50px;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+.split .extra {
+	padding: 30px 0 30px 0;
+	overflow: hidden;
+}
+
+
+
+/*----------------------------------------------------
+------------- All ------------------------------------
+--------------------- Media --------------------------
+------------------------------- Queries --------------
+-----------------------------------------------------*/
+
+@media only screen and (min-width: 767px) {
+
+	.logo {
+		position: absolute;
+		top: 50px;
+		left: 128px;
+		color: #2ECC4F;
+	}
+
+	.split-logo {
+		left: 60px;
+	}
+
+	.inner {
+		padding: 250px 0 0 0;
+		overflow: hidden;
+	}
+
+	.split .inner {
+		padding: 200px 0 0 0;
+	}
+
+	.split-3 .inner {
+		padding: 150px 0 0 0;
+	}
+
+	.inner h1 {
+		font-size: 54px;
+	}
+
+	.split-2 .right-section {
+		padding: 100px 50px 50px 50px;
+	}
+
+	.split-3 .right-section {
+		padding: 30px 50px 0 50px;
+	}
+
+}
+
+@media only screen and (min-width: 421px) and (max-width: 991px) {
+	.extra .extra-box {
+		padding: 30px;
+		max-width: 600px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+	.split .extra .extra-box {
+		padding: 30px;
+		max-width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+
+}
+
+
+	@media only screen and (max-width : 801px) {
+
+     .right-section{
+        position: relative;
+        width: 100%;
+    }
+
+     .left-section{
+        position: relative;
+        width: 100%;
+        min-height: 100%;
+    }
+
+		.split .inner {
+			padding: 150px 0 100px 0;
+			overflow: hidden;
+			text-align: center;
+		}
+}
+
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+   .right-section{
+      -webkit-overflow-scrolling: touch;
+  }
+}
+
+ @media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+
+   .split-home .right-section,  .split-home .left-section{
+      -webkit-overflow-scrolling: touch;
+  }
+}
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 736px) and (orientation: landscape) {
+   .right-section{
+      -webkit-overflow-scrolling: touch;
+  }
+}
+
+	@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) {
+     .left-section {
+       min-height: 100vh;
+    }
+  }
+
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1280px) and (orientation : landscape) {
+
+	 .product-bg img {
+		 margin-top: 100px;
+	 }
+ }
+
+	@media only screen and (max-width: 420px) {
+
+		.right-section {
+			 padding: 0 10px 0 10px;
+	 }
+ }
+
+/* --------------------------------------------------
+------- Media Queries for Split Layout Ends ---------
+---------------------------------------------------*/

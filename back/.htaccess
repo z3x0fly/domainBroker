@@ -1,0 +1,7 @@
+#Varsayılan İndexi Değiştirir.
+DirectoryIndex login.php
+RewriteEngine on
+#Dosya uzantılarını gizler.
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L] 
