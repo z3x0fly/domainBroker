@@ -22,4 +22,5 @@ Emre Can Temur | 0531 992 05 84 | emrecantemur.com.tr | emrecantemur.net.tr | wo
 
 
 ![alt text](https://i.hizliresim.com/fTb1jx.png)
+[]()
 [10₺](shopier.com/4350106)
