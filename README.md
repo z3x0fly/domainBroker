@@ -40,3 +40,7 @@ Uygulama üzerinde isteğiniz üzre değiştirme ve geliştirmeler yapabilirim. 
 <center>
 😊❤☕
 </center>
+
+# WAF Kurulumu
+
+WAF Kurulumu Manual yapıldığından dolayı, bunun için benimle iletişime geçmeniz gerekmekte. 
