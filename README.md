@@ -36,4 +36,6 @@ Emre Can Temur | 0531 992 05 84 | emrecantemur.com.tr | emrecantemur.net.tr | wo
 
 # Ufak bir not
 
-Uygulama üzerinde isteğiniz üzre değiştirme ve geliştirmeler yapabilirim. Bağış yaparak bana yardımcı olabilirsiniz. 😊❤☕
+Uygulama üzerinde isteğiniz üzre değiştirme ve geliştirmeler yapabilirim. Bağış yaparak bana yardımcı olabilirsiniz. 
+<br>
+😊❤☕
