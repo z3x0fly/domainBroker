@@ -38,4 +38,6 @@ Emre Can Temur | 0531 992 05 84 | emrecantemur.com.tr | emrecantemur.net.tr | wo
 
 Uygulama üzerinde isteğiniz üzre değiştirme ve geliştirmeler yapabilirim. Bağış yaparak bana yardımcı olabilirsiniz. 
 <br>
+<center>
 😊❤☕
+</center>
