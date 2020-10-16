@@ -13,7 +13,7 @@ Responsive PHP7 uyumlu Domain Satış sistemi.
 - Geniş PHP Sürüm Varyantı
 - Multi Tema Desteği
 - Açık Kaynak Kodları
-
+- Telegram API'li firewall kuruludur. /back/inc/Class içerisinde Firewall.Clas.php dosyası içinde değiştrmeler yapabilirsiniz.
 # Developer
 
 Emre Can Temur | 0531 992 05 84 | emrecantemur.com.tr | emrecantemur.net.tr | work@emrecantemur.net.tr |
