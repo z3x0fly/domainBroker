@@ -20,7 +20,6 @@ Emre Can Temur | 0531 992 05 84 | emrecantemur.com.tr | emrecantemur.net.tr | wo
 
 # Bana Kahve Ismarla
 
-
 ![alt text](https://i.hizliresim.com/fTb1jx.png)
 <br>
 [10₺](https://shopier.com/4350106)
