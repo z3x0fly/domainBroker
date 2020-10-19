@@ -5,6 +5,11 @@ Responsive PHP7 uyumlu Domain Satış sistemi.
 
 ![alt text](https://i.hizliresim.com/x9OeYL.png)
 
+# Güncelleme / Yama Günlüğü
+
+- 19.10.2020 - Htaccess Dosyasında hasar olduğu için fixlendi
+- 19.10.2020 Shopier Pay sorunu giderildi.
+
 
 # Özellikler 
 
